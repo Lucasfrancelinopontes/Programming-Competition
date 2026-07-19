@@ -1,0 +1,12 @@
+s1 = input()
+s2 = input()
+
+ans = ""
+
+for i in range(len(s1)):
+    if s1[i] != s2[i]:
+        ans+= "1"
+    else:
+        ans+= "0"
+
+print(ans)
