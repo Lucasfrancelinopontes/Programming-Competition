@@ -17,7 +17,7 @@ int main(){
     while(q--){
         string qq; cin >> qq;
 
-        cout << qq << " " << (pag[qq]/3)+1 << " \n";
+        cout << qq << " " << (pag[qq]/m)+1 << " \n";
     }
 
     return 0;
