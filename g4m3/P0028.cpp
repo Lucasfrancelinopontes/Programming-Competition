@@ -19,6 +19,11 @@ const int MOD = 1e9 + 7;
 #define S second
 
 void solve() {
+
+    //stringreversal;
+    //parking lot;
+    //lucky tree;
+    //the sum of the k-th powers
     ll n, q; cin >> n >> q;
 
     vector<ll> planetas(n);
